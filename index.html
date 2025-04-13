@@ -198,6 +198,8 @@
             line-height: 1.6;
             position: relative;
             overflow: hidden;
+            word-wrap: break-word;
+            white-space: pre-wrap;
         }
 
         .terminal::before {
@@ -213,9 +215,10 @@
 
         .terminal-line {
             margin-bottom: 0.8rem;
-            white-space: nowrap;
-            overflow: hidden;
+            overflow: visible;
             animation: typing 3s steps(40, end);
+            word-wrap: break-word;
+            white-space: pre-wrap;
         }
 
         .terminal-line:last-child {
@@ -352,7 +355,7 @@
             <div class="declassified">Odtajnione</div>
         </div>
         <h1 class="title">Jarosław Pieczonka</h1>
-        <div class="codename">> Kryptonim: Miami</div>
+        <div class="codename">> Pseudonim: Miami</div>
         <div class="description">Kiedyś zbierałem dowody dla CBŚ. Teraz te dowody publikuję. Jarosław "Miami" Pieczonka. Nie interesuje mnie neutralność, interesuje mnie prawda – ta, która boli i która ma moc rozbić układy.</div>
         <div class="terminal">
             <div class="terminal-line">OPERACJA: STRONA WWW</div>
